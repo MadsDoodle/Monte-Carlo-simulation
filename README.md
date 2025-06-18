@@ -16,7 +16,7 @@ This project simulates a molecular system using the Metropolis Monte Carlo algor
   - [Lennard-Jones Potential](#lennard-jones-potential)
   - [Metropolis Monte Carlo Algorithm](#metropolis-monte-carlo-algorithm)
 - [Workflow Diagram](#-workflow-diagram)
-
+---
 ## 🔭 Project Overview
 This project simulates `N` particles interacting in a cubic box. The core of the simulation relies on the Lennard-Jones (LJ) potential for particle interactions and the Metropolis algorithm for accepting or rejecting new particle configurations. The entire simulation is wrapped in an easy-to-use Streamlit interface for interactive analysis.
 
@@ -32,14 +32,8 @@ Key physical concepts implemented:
 -   ✅ **3D Visualization:** Generates a 3D scatter plot of the final particle configuration.
 -   ✅ **Data Export:** Automatically saves simulation parameters, energy history, final snapshot, and the full particle trajectory.
 -   ✅ **Modular Codebase:** Clear separation between the core simulation logic and the user interface.
-
+---
 ## 📁 Project Structure
-```markdown
-Of course. Here is your project description formatted into a professional and polished README.md file. I've organized the sections, added appropriate Markdown formatting for code, lists, and diagrams, and included badges for a finished look.
-
-You can copy and paste this entire block of code directly into your README.md file.
-
-Markdown
 
 # 📊 Monte Carlo Molecular Simulation (Metropolis Algorithm)
 
@@ -84,6 +78,7 @@ Key physical concepts implemented:
 -   ✅ **Modular Codebase:** Clear separation between the core simulation logic and the user interface.
 
 ## 📁 Project Structure
+```markdown
 monte-carlo/
 │
 ├── streamlit_app.py               # 🔷 Main Streamlit UI for simulation
